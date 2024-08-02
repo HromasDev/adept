@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000;
+}
+
+.middle {
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 8, 101, 0.392) 50%, rgb(0, 0, 0) 100%);
+  height: 100%;
+  max-height: 4000px;
+}
+
+.intro {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 6, 70) 150%);
+  height: 100%;
+  max-height: 1000px;
+}
+
+.avatar-button {
+width: 100%;
+margin-bottom: 10px;
+height: 50px;
+border-radius: 10px;
+filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
+text-align: center;
+}
+
+.user-button {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #0066FF;
+  text-indent: 30px;
+  filter: drop-shadow(0 0 20px #363dff71);
+  transition: 0.1s linear;
+}
+
+.user-button:hover {
+  filter: drop-shadow(0 0 20px #363dff);
+}
+
+.user-button img {
+  width: 30px;
+  margin-right: 20px;
+}
+.user-button .arrow-r {
+  float: right;
+  margin-right: 20px;
+  width: 15px;
+}
+.sign-wrap-1 .sign_word {
+  color:rgb(1, 0, 50);
+  text-shadow: 1px 0 1px #363dff,
+    0 1px 1px #363dff,
+    -1px 0 1px #363dff,
+    0 -1px 1px #363dff;
+  filter: drop-shadow(0 0 20px #363dff71);
+  padding: 50px 0 0 0;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 1739px;
+}
+
+.slider-block {
+  background: rgba(51, 51, 51, .1);
+  border-radius: 20px;
+  height: 100%;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 8px;
+  position: relative;
+} 
+
+.hvr {
+  width: 170px;
+  margin: 0 0 0 10px;
+}
+
+/* АВТОРИЗАЦИЯ */
+
+.login-cssave {
+  padding: 50px 0;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.explanation {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  transition: 1s linear;
+}
+
+.login-cssave form {
+  max-width: 500px;
+  margin-bottom: 10%;
+  padding: 35px 70px 15px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  background: rgba(0, 9, 136, 0.109);
+  backdrop-filter: blur(10px);
+}
+
+.login-cssave form h3 {
+  margin-bottom: 30px;
+}
+
+.login-cssave .item {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.login-cssave .create-account {
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+}
+
+.form-control:focus {
+
+  border-color: #3f93ff !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 576px) {
+  .login-cssave form {
+    padding: 50px 20px;
+  }
+}
+
+.slider-product-inline {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.line-main {
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 5px;
+  background-color: #ffffff3d;
+  border-radius: 10px;
+}
+
+.user-line {
+  height: 1px;
+  background-color: #ffffff3d;
+}
+
+.btns-line {
+  display: flex;
+  float: right;
+}
+
+button {
+  border: 0
+}
+
+.image {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.hvr__images {
+  position: relative;
+
+}
+
+.hvr__sectors {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.hvr__sector {
+  flex-grow: 1;
+}
+
+
+.slider-buttons {
+  float: right;
+}
+
+
+/* Инвертация иного цвета в белый, заменяя оставшиеся вектора на синий */
+
+.btn-small:hover .invertToWhite {
+  transition: 0.2s linear;
+  fill: white;
+}
+
+.btn-small:hover path {
+  transition: 0.2s linear;
+  fill: #0066FF;
+}
+
+.btn-small:hover .invertToWhite {
+  transition: 0.2s linear;
+  fill: white;
+}
+
+.btn-small:hover path {
+  transition: 0.2s linear;
+  fill: #0066FF;
+}
+
+.category {
+  height: 300px !important;
+  min-width: 300px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  position: relative;  
+  background-position-x: center !important;
+}
+
+.category div {
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.category:hover div {
+  transition: 0.1s linear;
+    background:rgba(0,0,0,0.6);
+}
+
+.category h4 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s cubic-bezier(0.99, 0, 0, 0.99);  
+}
+
+
+.category:hover h4 {
+  letter-spacing: 4px;
+  font-size: 28px;
+}
+
+.slider-product-text {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  line-height: 14px;
+  width: 100%;
+}
+
+
+.product-item {
+  background: black;
+  position: relative;
+  width: 50px;
+  height: 180px;
+}
+
+
+.list-items {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.product-list {
+  position: relative;
+  text-align: center;
+}
+
+.right-content {
+  width: 75%;
+  min-width: 0%;
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: Rostov;
+  /* Гарнитура шрифта */
+  src: url(fonts/Rostov.ttf);
+  /* Путь к файлу со шрифтом */
+}
+
+a {
+  text-decoration: none;
+  /* Отменяем подчеркивание у ссылки */
+}
+
+@font-face {
+  font-family: NAMU;
+  /* Гарнитура шрифта */
+  src: url(fonts/NAMU-Pro.ttf);
+  /* Путь к файлу со шрифтом */
+  font-style: bold;
+}
+
+.logo .tagline {
+  width: 10px;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.menu-left {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-right {
+  line-height: 28px;
+  width: 15%;
+  /* identical to box height */
+  color: #0066FF;
+}
+
+.header-icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 5%;
+  transition: 0.1s linear;
+  border-radius: 25px;
+  
+
+}
+
+.header-icon:hover {
+  filter: drop-shadow(0 0 10px #0800ff);
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.logo {
+  position: relative;
+  width: 220px;
+  filter: drop-shadow(0 0 20px #363dffc5);
+  
+}
+
+.tagline {
+  /* интернет-магазин */
+  position: relative;
+  font-size: 24px;
+  top: 15px;
+  /* identical to box height */
+  opacity: 0.5;
+}
+
+.content {
+  padding: 20px 0;
+  font-family: 'NAMU';
+}
+
+.user-category {
+  height: 250px !important;
+}
+
+.avatar-block {
+  height: 100% !important;
+}
+
+.menu-left {
+  margin-top: 10px;
+}
+
+.menu-left p {
+  margin: 0;
+  opacity: 1;
+  font-weight: 200;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.block p {
+
+  opacity: 0.5;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.p-3 {
+  border-radius: 50px;
+  height: 360px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  background: rgba(0, 9, 136, 0.109);
+  backdrop-filter: blur(10px);
+  justify-content: space-between;
+}
+
+
+/* Исключение противоречия */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: white;
+}
+
+.block {
+  height: 512px;
+}
+
+.block-large {
+  height: 2000px;
+}
+
+
+.block-left {
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+.block-right {
+  position: relative;
+  top: 25%;
+  left: 10%;
+}
+
+
+
+.large-img-left {
+  position: relative;
+  left: 10%;
+  width: 500px
+}
+
+.large-img-right {
+  position: relative;
+  width: 500px;
+  float:right;
+  right: 10%;
+}
+
+
+
+.card {
+  background-color: #fff;
+  min-width: 100%;
+  min-height: 200px;
+  display: flex
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+.card--content {
+  background-color: #e74c3c;
+  min-width: 200px;
+  margin: 5px;
+}
+
+.block-btn {
+  border-radius: 20px;
+  width: 250px;
+  height: 60px;
+  font-size: 17px;
+}
+
+/* Стиль поиска */
+
+.search {
+  position: relative;
+  box-shadow: 0 0 10px rgba(51, 51, 51, .1);
+  border-radius: 15px;
+}
+
+.search input {
+
+  height: 50px;
+  text-indent: 25px;
+  font-weight: 600;
+  opacity: 0.5;
+  border: 2px solid #d4d4d6;
+  border-radius: 15px;
+
+}
+
+
+.search input:focus {
+
+  box-shadow: none;
+  border: 2px solid blue;
+
+
+
+}
+
+.search .fa-search {
+
+  position: absolute;
+  top: 20px;
+  left: 16px;
+
+
+}
+
+
+.slider-product-btns {
+  margin-top: 20px;
+  align-items: center;
+  background-color: #f6f6f62d;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.search-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search button {
+  position: absolute;
+  color: white;
+  width: 110px;
+  height: 80%;
+  background: #0066FF;
+  border-radius: 15px;
+  right: 0%;
+  margin: 5px;
+  top: 0;
+  bottom: 0;
+}
+
+.btn-catalog {
+  display: none;
+  background: none;
+  border-radius: none;
+  width: 60px !important;
+  left: 0%;
+}
+
+.circle-opaque {
+  border-radius: 50%;          /* Make it a circle */
+  display: inline-block;       
+  position: absolute;          /* Able to position it, overlaying the other image */
+  left:0px;                    /* Customise the position, but make sure it */
+  top:0px;                     /* is the same as .circle-transparent */
+  z-index: -1;                 /* Makes the image sit *behind* .circle-transparent */
+}
+.circle-opaque img {
+  border-radius: 50%;          /* Make it a circle */
+  z-index: -1;
+}
+.circle-transparent {
+  border-radius: 50%;          /* Make it a circle */
+  display: inline-block;       
+  left: 0px;                   /* Customise the position, but make sure it */
+  top: 0px;                    /* is the same as .circle-transparent */
+  z-index: 1;                  /* Makes the image sit *on top of* .circle-transparent */
+}
+.circle-transparent img {
+  opacity: 0.4;                /* Make the second image transparent */
+  filter: alpha(opacity=40);   /* For IE8 and earlier; optional */
+  z-index: 1;                  /* And on top of the first */
+}
+
+/* КАТЕГОРИИ */
+
+.category-wrap ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.category-wrap li {
+  border-bottom: 2px solid #4f95ff;
+  margin: 0 40%;
+}
+
+.category-wrap a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: #0066FF;
+  font-weight: 700;
+  position: relative;
+  transition: .1s linear;
+  line-height: 75px;
+}
+
+.category-wrap a:hover {
+  font-size: 20px;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  border-color: #000000;
+  color: #0066FF;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #0066FF;
+}
+
+
+/* АДАПТИВНОСТЬ */
+
+@media (min-width: 2100px) {
+  .nav-container {
+    max-width: 2100px;
+  }
+}
+
+@media (max-width: 2220px) {
+  .nav-container {
+    max-width: 1700px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .nav-container {
+    max-width: 1350px;
+  }
+  .menu-right {
+    width: 20%;
+  }
+
+}
+
+@media (max-width: 1399px) {
+  .block-large img {
+    width: 400px;
+  }
+  .line-main {
+    margin-top: 0;
+  }
+  .intro-img {
+    min-width: 850px;
+  }
+  .category-col{
+    padding: 0 !important;
+    margin: 1rem;
+  }
+  .logo {
+    width: 150px;
+  }
+
+  .nav-container {
+    max-width: 1140px;
+  }
+
+  .menu-right {
+    width: 30%;
+  }
+
+  .slider-product-btns h6 {
+    font-size: 12px;
+  }
+  
+
+}
+
+@media (max-width: 1200px) {
+  .block-right {
+    left: 0;
+  }
+  .block {
+    height: 450px;
+  }
+  .col img {
+    width: 70%;
+    top: 15% !important;
+  }
+  .nav-container {
+    max-width: 960px;
+  }
+  .slider-product-text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .col-lg-3 {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+
+  .category-wrap a {
+    font-size: 1vw !important;
+    text-align: none;
+    width: 25%;
+  }
+
+  .category-wrap ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .category-wrap a:hover {
+    font-size: 1vw !important;
+  }
+
+  .category-wrap li {
+    border-bottom: 0;
+    border-left: 1px solid #4f95ff;
+    margin: 20px 0 20px 0;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+
+  .btn-catalog {
+    display: block;
+  }
+
+  .search input {
+    text-indent: 65px;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro-img {
+    width: 100%;
+    min-width: 550px;
+  }
+  .block {
+    height: 360px;
+  }
+  .block h2 {
+    font-size: 24px;
+  }
+  .block p {
+    font-size: 14px;
+  }
+  .block-btn {
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .nav-container {
+    max-width: 720px;
+  }
+  .logo {
+    width: 120px;
+  }
+  .nav-item p {
+    font-size: 14px;
+  }
+
+  .header-icon {
+    width: 40px;
+  }
+
+  img {
+    width: 345px;
+  }
+
+  .menu-right {
+    width: 33%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sign_word {
+    font-size: 40px !important;
+  }
+  .block-btn {
+    width: 150px;
+    height: 35px;
+    font-size: 10px;
+  }
+  .block {
+    height: 285px;
+  }
+  .block h2 {
+    font-size: 20px;
+  }
+  .block p {
+    font-size: 12px;
+  }
+  .nav-container {
+    max-width: 540px;
+  }
+  .nav-item p {
+    font-size: 12px;
+  }
+  .logo {
+    width: 100px;
+  }
+  .header-icon {
+    width: 30px;
+  }
+  .menu-right {
+    width: 40%;
+  }
+  .menu-left {
+    display: block;
+  }
+  .nav-left {
+    text-indent: -15px
+  }
+}
+
+@media (max-width: 576px) {
+  .block-large .block {
+    height: 200px;
+  }
+  .line-main {
+    margin-bottom: 0;
+  }
+  .intro-img {
+    min-width: 0px;
+  }
+  .block-left {
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+  .block-right {
+    width: 100%;
+    right: 0;
+    text-align: center;
+  }
+  .col-img {
+    display: none;
+  }
+  .logo {
+    width: 80px;
+  }
+  .nav-item p {
+    font-size: 10px;
+  }
+  .menu-right {
+    width: 31%;
+  }
+  .menu-right .nav-item {
+    padding: 0;
+  }
+}
